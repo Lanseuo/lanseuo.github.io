@@ -1,0 +1,47 @@
+/*General*/
+body
+
+#all {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+ }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oxygen", sans-serif;
+  /*text-align: center;*/
+ }
+
+a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+hr {
+  border: 1px dashed;
+}
+
+/*Container*/
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+  widht: 100%;
+  height: 50px;
+  background-color: rgb(48, 53, 70);
+  text-align: center;
+  color: white;
+}

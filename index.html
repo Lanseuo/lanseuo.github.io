@@ -1,23 +1,38 @@
----
-layout: default
----
+<html>
+  <head>
+    <title>Lucas Hild</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <div id="all">
+    <header id="header">
+      <img>
+      <h1>Lucas Hild</h1>
+      <h3>Photography and Tech</h3>
+      <hr>
+    </header>
 
-<div class="home">
+    <main>
+      <div>
+        <h2>Hey, I'm Lucas</h2>
+        <p>I like programming some little programms with Python and my Raspberry Pi 3. Moreover I like creating webpages with HTML and CSS. In freetime I like climbing, playing the violin and searching geocaches. My passion is taking photos and recording videos.</p>
+        <img>
+        <hr>
+      </div>
 
-  <h1 class="page-heading">Posts</h1>
+      <div id="projects">
+        <h2>My Projects</h2>
+        <p>Text</p>
+      </div>
+    </main>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div id="all">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <footer>
+      <p>Copyright ©2016 Lucas Hild</p>
+    </footer>
+  </body>
+</html>
